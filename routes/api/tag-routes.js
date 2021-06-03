@@ -47,6 +47,7 @@ router.put('/:id', (req, res) => {
     where: {
       id: req.params.id,
     },
+  });
 });
 
 router.delete('/:id', (req, res) => {
